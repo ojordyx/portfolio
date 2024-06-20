@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordy Xisto - Planejamento de Obras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jordy Xisto</h1>
+        <p>Serviços de Planejamento para Obras de Projeto de Construção</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#curriculo">Currículo</a>
+        <a href="#blog">Blog</a>
+        <a href="#portfolio">Portfólio de Trabalho</a>
+    </nav>
+    <div class="container">
+        <section id="sobre" class="section">
+            <h2>Sobre</h2>
+            <p>Bem-vindo ao meu site! Sou Jordy Xisto, especializado em planejamento para obras de projeto de construção. Com uma sólida formação em Engenharia Elétrica e experiência em gerenciamento de projetos, ofereço serviços de alta qualidade para garantir o sucesso dos seus empreendimentos.</p>
+        </section>
+        <section id="curriculo" class="section">
+            <h2>Currículo</h2>
+            <p>Aqui você encontrará um resumo das minhas qualificações e experiências profissionais.</p>
+            <ul>
+                <li><strong>Graduação:</strong> Engenharia Elétrica</li>
+                <li><strong>Pós-graduação:</strong> Engenharia de Projetos</li>
+                <li><strong>Experiência:</strong> Vários anos atuando em planejamento e execução de obras de construção</li>
+            </ul>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Leia meus últimos artigos sobre planejamento de obras e tendências na construção civil.</p>
+            <article>
+                <h3>Como otimizar o planejamento de obras</h3>
+                <p>Neste artigo, discuto várias estratégias para melhorar a eficiência no planejamento de projetos de construção...</p>
+            </article>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfólio de Trabalho</h2>
+            <p>Confira alguns dos projetos em que trabalhei.</p>
+            <div>
+                <h3>Projeto Residencial XYZ</h3>
+                <p>Descrição breve do projeto, destacando os principais desafios e soluções implementadas.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jordy Xisto. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
